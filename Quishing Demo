@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>QR Code Security Demonstration</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #111;
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 35px 20px;
+    }
+
+    .warning {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 44px;
+      margin: 10px 0;
+    }
+
+    .gotcha {
+      color: #ff4444;
+    }
+
+    .message {
+      max-width: 700px;
+      margin: 30px auto;
+      font-size: 24px;
+      line-height: 1.5;
+    }
+
+    .safe {
+      background-color: #ffffff;
+      color: #111;
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 25px;
+      border-radius: 12px;
+      font-size: 21px;
+    }
+
+    .lesson {
+      font-size: 30px;
+      margin-top: 35px;
+      font-weight: bold;
+    }
+
+    .rule {
+      font-size: 34px;
+      margin-top: 25px;
+      font-weight: bold;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 15px;
+      color: #bbb;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="warning">⚠️</div>
+
+  <h1 class="gotcha">GOTCHA!</h1>
+
+  <div class="message">
+    You just scanned a QR code from someone you don't know.
+  </div>
+
+  <div class="safe">
+    <strong>Don't worry — this demonstration is harmless.</strong>
+
+    <p>
+      Nothing has been installed on your phone and no information
+      has been collected.
+    </p>
+  </div>
+
+  <div class="message">
+    But what if this page had looked like your bank's login page?
+  </div>
+
+  <div class="message">
+    What if it asked for your password, credit card number,
+    Social Security number, or verification code?
+  </div>
+
+  <div class="lesson">
+    A QR code is just a link.
+  </div>
+
+  <div class="message">
+    The problem is that you often don't know where that link
+    will take you until you scan it.
+  </div>
+
+  <div class="rule">
+    STOP → THINK → VERIFY
+  </div>
+
+  <div class="footer">
+    Adult Technology Security Demonstration
+  </div>
+
+</body>
+</html>
